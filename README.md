@@ -26,6 +26,13 @@ The following command will run `example.py` with an exaustive grid search.
 
 ```sh
 $ python3 ./searchless.py "python3 ./example.py"
+alpha=<matrix_trainer.LinearFloatProxy> (0.5) beta=<matrix_trainer.LinearFloatProxy> (0.9) lr=<matrix_trainer.LinearFloatProxy>, 0.0001
+alpha=<matrix_trainer.LinearFloatProxy> (0.5) beta=<matrix_trainer.LinearFloatProxy> (0.9) lr=<matrix_trainer.LinearFloatProxy>, 0.00039999999999999996
+...
+alpha=<matrix_trainer.LinearFloatProxy> (0.9) beta=<matrix_trainer.LinearFloatProxy> (0.999) lr=<matrix_trainer.LinearFloatProxy>, 0.00039999999999999996
+alpha=<matrix_trainer.LinearFloatProxy> (0.9) beta=<matrix_trainer.LinearFloatProxy> (0.999) lr=<matrix_trainer.LinearFloatProxy>, 0.0007
+alpha=<matrix_trainer.LinearFloatProxy> (0.9) beta=<matrix_trainer.LinearFloatProxy> (0.999) lr=<matrix_trainer.LinearFloatProxy>, 0.001
+{'step': 160, 'total_steps': 160}
 ```
 
 ## Roadmap
