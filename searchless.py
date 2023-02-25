@@ -2,11 +2,11 @@
 Usage: 
 * Instatiate *Proxy where you'd normally use the regular value with the right parameters
 * After creating all instances call `resolve_proxies()`
-* Run `matrix_trainer.py {cmd}`
+* Run `searchless.py {cmd}`
 
 Now matrix_trainer will repeatedly call `{cmd}` while varying the Proxies
 
-It functions by passing .matrix_session.toml with the current steps, could be improved by using tmpfs
+It functions by passing a tempfile *matrix_session.toml with the current steps & configuration
 """
 import os
 import toml
