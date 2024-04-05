@@ -64,8 +64,8 @@ def styblinski_tang(x) -> float:
 # ===Quasi-Random sampling===
 def distance_to_hyperplane(plane_factor, plane_offset, point):
     """
-    Should give back the distnace from a hyperplane to a point; the point OR the plane can be broadcasted batched
-    if both are provided with a batch dim each point will be matched with a plane (akin to `zip()``)
+    Should give back the distance from a hyperplane to a point; the point OR the plane can be broadcasted batched
+    if both are provided with a batch dim each point will be matched with a plane (akin to `zip()`)
 
     Examples:
     >>> distance_to_hyperplane(plane_factor=np.array([0,0,1]), plane_offset=np.array([1]), point=np.array([0,0,0]))
